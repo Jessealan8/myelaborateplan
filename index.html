@@ -1,0 +1,52 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Interactive Pitch</title>
+  <script type="module" crossorigin src="/myelaborateplan/assets/index-yGRKwRZ9.js"></script>
+  <link rel="stylesheet" crossorigin href="/myelaborateplan/assets/index-DWqS8k2t.css">
+</head>
+<body>
+
+  <img id="opening-woodley" src="data:image/svg+xml;base64,PCEtLSB3b29kbGV5LXBsYWNlaG9sZGVyLnN2ZyAtLT4NCjxzdmcgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHZpZXdCb3g9IjAgMCAyMDAgMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPg0KICA8IS0tIENoYWlyIC0tPg0KICA8cmVjdCB4PSI2MCIgeT0iMTEwIiB3aWR0aD0iODAiIGhlaWdodD0iMTAiIGZpbGw9IiM4QjQ1MTMiLz4NCiAgPGxpbmUgeDE9IjY1IiB5MT0iMTEwIiB4Mj0iNjUiIHkyPSIxNTAiIHN0cm9rZT0iIzhCNDUxMyIgc3Ryb2tlLXdpZHRoPSI0Ii8+DQogIDxsaW5lIHgxPSIxMzUiIHkxPSIxMTAiIHgyPSIxMzUiIHkyPSIxNTAiIHN0cm9rZT0iIzhCNDUxMyIgc3Ryb2tlLXdpZHRoPSI0Ii8+DQoNCiAgPCEtLSBIZWFkIC0tPg0KICA8Y2lyY2xlIGN4PSIxMDAiIGN5PSI3MCIgcj0iMTUiIGZpbGw9IiMyMjIiLz4NCg0KICA8IS0tIFp6eiAtLT4NCiAgPHRleHQgeD0iMTIwIiB5PSI1MCIgZm9udC1zaXplPSIxMCIgZmlsbD0iIzk5OSI+Wnp6Li4uPC90ZXh0Pg0KDQogIDwhLS0gQm9keSAoc2xvdWNoZWQpIC0tPg0KICA8bGluZSB4MT0iMTAwIiB5MT0iODUiIHgyPSI5NSIgeTI9IjExMCIgc3Ryb2tlPSIjMjIyIiBzdHJva2Utd2lkdGg9IjIiLz4NCg0KICA8IS0tIEFybXMgLS0+DQogIDxsaW5lIHgxPSI5NSIgeTE9Ijk1IiB4Mj0iODUiIHkyPSIxMDUiIHN0cm9rZT0iIzIyMiIgc3Ryb2tlLXdpZHRoPSIyIi8+DQogIDxsaW5lIHgxPSI5NSIgeTE9Ijk1IiB4Mj0iMTA1IiB5Mj0iMTA1IiBzdHJva2U9IiMyMjIiIHN0cm9rZS13aWR0aD0iMiIvPg0KDQogIDwhLS0gTGVncyAtLT4NCiAgPGxpbmUgeDE9Ijk1IiB5MT0iMTEwIiB4Mj0iOTAiIHkyPSIxMzUiIHN0cm9rZT0iIzIyMiIgc3Ryb2tlLXdpZHRoPSIyIi8+DQogIDxsaW5lIHgxPSI5NSIgeTE9IjExMCIgeDI9IjEwMCIgeTI9IjEzNSIgc3Ryb2tlPSIjMjIyIiBzdHJva2Utd2lkdGg9IjIiLz4NCjwvc3ZnPg==" alt="Sleeping Woodley" />
+  <button class="sign" id="wakeButton">Tap me if I fall asleep</button>
+  <!-- Text bubble -->
+  <div id="bubble-container">
+    <div class="text-bubble" id="text-bubble">
+      <p></p>
+    </div>
+  </div>
+
+  <!-- Sign in clipboard  -->
+  <div id="clipboard" class="hidden">
+    <div class="clipboard-content">
+      <div class="clip"></div>
+      <div class="paper">
+        <!-- <p>Sign in board</p> -->
+        <form id="signInForm">
+          <div class="form-row" >
+            <input type="text" placeholder="Name" id="nameInput" />
+            <input type="date" id="dateInput" />
+            <button type="submit" class="submit-btn" id="submitBTN" >Done</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Security questions -->
+   <div class="answerButtons" >
+    <button id="confirmReady" >Ready</button>
+    <button id="confirmUnReady" >Not Ready</button>
+    <div id="answerContainer">
+      <button class="answerBTN" id="BTN1">1</button>
+      <button class="answerBTN" id="BTN2">2</button>
+      <button class="answerBTN" id="BTN3">3</button>
+      <button class="answerBTN" id="BTN4">4</button>
+    </div>
+   </div>
+
+</body>
+</html>

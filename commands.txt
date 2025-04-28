@@ -1,0 +1,10 @@
+Update the repository
+
+git add .
+git commit -m ""
+git push
+
+update the dist folder
+
+npm run build
+npm run deploy

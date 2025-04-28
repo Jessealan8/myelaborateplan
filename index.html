@@ -1,0 +1,52 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Interactive Pitch</title>
+  <link rel="stylesheet" href="src/style.css" />
+</head>
+<body>
+
+  <img id="opening-woodley" src="assets/Woodley.svg" alt="Sleeping Woodley" />
+  <button class="sign" id="wakeButton">Tap me if I fall asleep</button>
+  <!-- Text bubble -->
+  <div id="bubble-container">
+    <div class="text-bubble" id="text-bubble">
+      <p></p>
+    </div>
+  </div>
+
+  <!-- Sign in clipboard  -->
+  <div id="clipboard" class="hidden">
+    <div class="clipboard-content">
+      <div class="clip"></div>
+      <div class="paper">
+        <!-- <p>Sign in board</p> -->
+        <form id="signInForm">
+          <div class="form-row" >
+            <input type="text" placeholder="Name" id="nameInput" />
+            <input type="date" id="dateInput" />
+            <button type="submit" class="submit-btn" id="submitBTN" >Done</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Security questions -->
+   <div class="answerButtons" >
+    <button id="confirmReady" >Ready</button>
+    <button id="confirmUnReady" >Not Ready</button>
+    <div id="answerContainer">
+      <button class="answerBTN" id="BTN1">1</button>
+      <button class="answerBTN" id="BTN2">2</button>
+      <button class="answerBTN" id="BTN3">3</button>
+      <button class="answerBTN" id="BTN4">4</button>
+    </div>
+   </div>
+
+  <script type="module" src="src/script.js"></script>
+</body>
+</html>
